@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<railway name="My Railway">
+	<trailers>
+		<trailer number="1">
+			<trailerId>8</trailerId>
+			<trailerName>lokomotive</trailerName>
+			<salary currency="USD">5000</salary>
+		</trailer>
+		<trailer number="2">
+			<trailerId>15</trailerId>
+			<trailerName>lokomotive</trailerName>
+			<salary currency="EUR">3500</salary>
+		</trailer>
+	</trailers>
+	<trainTypes>
+		<trainType number="1">
+			<trainTypeId>1</trainTypeId>
+			<name>rail</name>
+		</trainType>
+		<trainType number="2">
+			<trainTypeId>2</trainTypeId>
+			<name>freight</name>
+		</trainType>
+		<trainType number="3">
+			<trainTypeId>3</trainTypeId>
+			<name>military</name>
+		</trainType>
+	</trainTypes>
+	<trains>
+		<train number="1">
+			<trainId>1</trainId>
+			<trainTrailerId>8</trainTrailerId>
+			<trainTrainTypeId>1</trainTrainTypeId>
+		</train>
+		<train number="2">
+			<trainId>2</trainId>
+			<trainTrailerId>15</trainTrailerId>
+			<trainTrainTypeId>2</trainTrainTypeId>
+		</train>
+	</trains>
+	<passengers>
+		<passenger number="1">
+			<passengerId>1</passengerId>
+			<passengerName>Holly</passengerName>
+			<surname>Blake</surname>
+		</passenger>
+		<passenger number="2">
+			<passengerId>2</passengerId>
+			<passengerName>Adam</passengerName>
+			<surname>Loid</surname>
+		</passenger>
+		<passenger number="3">
+			<passengerId>3</passengerId>
+			<passengerName>Chris</passengerName>
+			<surname>Bern</surname>
+		</passenger>
+		<passenger number="4">
+			<passengerId>4</passengerId>
+			<passengerName>Margo</passengerName>
+			<surname>Glade</surname>
+		</passenger>
+	</passengers>
+	<tickets>
+		<ticket number="1">
+			<ticketId>1</ticketId>
+			<price>350</price>
+			<linens>1</linens>
+			<ticketPassengerId>1</ticketPassengerId>
+			<ticketTrainId>1</ticketTrainId>
+		</ticket>
+		<ticket number="2">
+			<ticketId>2</ticketId>
+			<price>360</price>
+			<linens>1</linens>
+			<ticketPassengerId>2</ticketPassengerId>
+			<ticketTrainId>1</ticketTrainId>
+		</ticket>
+		<ticket number="3">
+			<ticketId>3</ticketId>
+			<price>350</price>
+			<linens>1</linens>
+			<ticketPassengerId>3</ticketPassengerId>
+			<ticketTrainId>1</ticketTrainId>
+		</ticket>
+	</tickets>
+</railway>

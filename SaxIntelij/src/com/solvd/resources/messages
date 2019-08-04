@@ -1,0 +1,16 @@
+2019-08-05 00:36:43 INFO  MyHandler:25 - Starting XML parsing...
+2019-08-05 00:36:43 INFO  MyHandler:210 - XML parsing is completed.
+2019-08-05 00:36:43 INFO  Main:24 - Trailer{number=1, trailerId=8, trailerName='lokomotive'}
+2019-08-05 00:36:43 INFO  Main:24 - Trailer{number=2, trailerId=15, trailerName='lokomotive'}
+2019-08-05 00:36:43 INFO  Main:26 - TrainType{number=1, trainTypeId=1, name='rail'}
+2019-08-05 00:36:43 INFO  Main:26 - TrainType{number=2, trainTypeId=2, name='freight'}
+2019-08-05 00:36:43 INFO  Main:26 - TrainType{number=3, trainTypeId=3, name='military'}
+2019-08-05 00:36:43 INFO  Main:28 - Train{number=1, trainId=1, trailerId='8', trainTypeId=1}
+2019-08-05 00:36:43 INFO  Main:28 - Train{number=2, trainId=2, trailerId='15', trainTypeId=2}
+2019-08-05 00:36:43 INFO  Main:30 - Passenger{number=1, passengerId=1, passengerName='Holly', surname='Blake'}
+2019-08-05 00:36:43 INFO  Main:30 - Passenger{number=2, passengerId=2, passengerName='Adam', surname='Loid'}
+2019-08-05 00:36:43 INFO  Main:30 - Passenger{number=3, passengerId=3, passengerName='Chris', surname='Bern'}
+2019-08-05 00:36:43 INFO  Main:30 - Passenger{number=4, passengerId=4, passengerName='Margo', surname='Glade'}
+2019-08-05 00:36:43 INFO  Main:32 - Ticket{number=1, ticketId=1, price=350', linens=1, passengerId=1', trainId=1}
+2019-08-05 00:36:43 INFO  Main:32 - Ticket{number=2, ticketId=2, price=360', linens=1, passengerId=2', trainId=1}
+2019-08-05 00:36:43 INFO  Main:32 - Ticket{number=3, ticketId=3, price=350', linens=1, passengerId=3', trainId=1}
